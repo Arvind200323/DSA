@@ -7,7 +7,7 @@ public:
             if(candies[i] > maxEle){
                 maxEle = candies[i];
             }
-        }
+        } 
         vector<bool> res;
         for(int i=0;i<n;i++){
             int x = candies[i];
