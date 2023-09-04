@@ -8,7 +8,7 @@ public:
         int b=1;
         int c=0;
         for(int i=1;i<n;i++){
-            c=a+b;
+            c=a+b; 
             a=b;
             b=c;
         }
