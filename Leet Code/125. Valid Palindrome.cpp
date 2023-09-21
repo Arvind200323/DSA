@@ -4,7 +4,7 @@ public:
         int start = 0;
         int end = s.size()-1;
         while(start<=end){
-            if(!isalnum(s[start])){
+            if(!isalnum(s[start])){ 
                 start++;
                 continue;
             }if(!isalnum(s[end])){
