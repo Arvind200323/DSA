@@ -1,9 +1,8 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        reverse(s.begin(),s.end());
         int ans=0,flag=0;
-        for(int i=0;i<s.size();i++){
+        for(int i=s.size()-1;i>=0;i--){
             if(s[i]!=' '){
                 ans++;
                 flag=1;
