@@ -6,7 +6,7 @@ public:
         for(int i=1;i<=n*n;i++) mpp[i]++;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                mpp[grid[i][j]]++;
+                mpp[grid[i][j]]++; 
             }
         }
         int a=0,b=0;
