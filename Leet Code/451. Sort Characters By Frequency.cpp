@@ -4,15 +4,17 @@ public:
         priority_queue<pair<int,char>> pq;
         unordered_map<char,int> mpp;
         string ans="";
-        for(int i=0;i<s.size();i++){
-            mpp[s[i]]++;
+        for(int i=0;i<s.size();i++) mpp[s[i]]++;
+        for(auto x:mpp){
+            pair<int,char> p;
+            p.first = x.second;
+            p.second = x.first;
+            pq.push(p);
         }
-        for(auto x:mpp) pq.push({x.second,x.first});
         while(!pq.empty()){
-            int a = pq.top().second;
-            int count=pq.top().first;
-            while(count--){
-                ans+=a;
+            int x = pq.top().first;
+            while(x--){
+                ans += pq.top().second;
             }
             pq.pop();
         }
