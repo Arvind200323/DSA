@@ -10,7 +10,7 @@ public:
             if(a<=k) {
                 k -= a;
                 pq.pop();
-            }
+            } 
             else break;
         }
         return pq.size();
