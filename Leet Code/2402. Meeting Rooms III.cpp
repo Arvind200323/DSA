@@ -1,3 +1,5 @@
+https://chat.openai.com/share/d5c11a70-cf51-4b45-b48c-976c2cf1e2f1
+
 class Solution {
 public:
     int mostBooked(int n, vector<vector<int>>& meetings) {
