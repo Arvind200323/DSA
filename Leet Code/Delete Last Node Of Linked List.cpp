@@ -14,7 +14,7 @@ Node* deleteLast(Node* list) {
     Node* head = list;
     Node* mover = head;
     int len = 0;
-    while (mover) {
+    while (mover) { 
         mover = mover->next;
         len++;
     }
