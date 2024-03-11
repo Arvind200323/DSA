@@ -6,7 +6,7 @@ public:
         //         if(abs(i-j) <= indexDiff && abs(nums[i]-nums[j]) <= valueDiff){
         //             return true;
         //         }
-        //     }
+        //     } 
         // }
         // return false;
 
