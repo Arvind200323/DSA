@@ -9,7 +9,7 @@ public:
                 i++;
                 j--;
             }else{
-                j--;
+                j--; 
             }
             ans++;
         }
