@@ -10,7 +10,7 @@ public:
             return true;
         }
         if(dp[i][j]!=-1) return dp[i][j];
-        if(p[i]==s[j] || p[i]=='?'){
+        if(p[i]==s[j] || p[i]=='?'){ 
            return dp[i][j]=func(i-1,j-1,s,p,dp);
         }
         if(p[i]=='*'){
