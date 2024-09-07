@@ -42,7 +42,7 @@ int main(){
     adj[5]={4,8};
     adj[6]={1,7,9};
     adj[7]={6,8};
-    adj[8]={5,7};
+    adj[8]={5,7}; 
     adj[9]={6};
 
     vector<int> bfsTraversal=bfs(adj,10);
